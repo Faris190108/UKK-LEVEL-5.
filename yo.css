@@ -1,0 +1,146 @@
+/* ===== Global ===== */
+body {
+  font-family: "Inter", Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  padding: 20px;
+}
+
+div {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ===== Navigation ===== */
+nav {
+  display: flex;
+  gap: 20px;
+  background: #ffffff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.15s;
+}
+
+nav a:hover {
+  color: #1d4ed8;
+}
+
+/* ===== Header Bar ===== */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
+
+.header-bar h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+}
+
+.header-bar a {
+  background: #1d4ed8;
+  padding: 9px 16px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.header-bar a:hover {
+  background: #2563eb;
+}
+
+/* ===== Table ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+thead th {
+  background: #eef1f6;
+  padding: 14px;
+  text-align: left;
+  font-weight: 700;
+  color: #333;
+  border-bottom: 2px solid #e0e4ea;
+}
+
+tbody tr {
+  background: #ffffff;
+  transition: 0.15s;
+}
+
+tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+tbody tr:hover {
+  background: #eef5ff;
+}
+
+td {
+  padding: 14px;
+  font-size: 15px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* ===== Button-style action links ===== */
+.action-btn {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white !important;
+  transition: 0.2s;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+/* EDIT - Biru */
+.action-edit {
+  background: #2563eb;
+}
+.action-edit:hover {
+  background: #1e4fc7;
+}
+
+/* PINJAM - Hijau */
+.action-pinjam {
+  background: #059669;
+}
+.action-pinjam:hover {
+  background: #047857;
+}
+
+/* KEMBALIKAN - Kuning */
+.action-kembali {
+  background: #f59e0b;
+}
+.action-kembali:hover {
+  background: #d97706;
+}
+
+/* HAPUS - Merah */
+.action-delete {
+  background: #dc2626;
+}
+.action-delete:hover {
+  background: #b91c1c;
+}
